@@ -2,10 +2,12 @@
 
 import Image from "next/image"
 import CustomButton from "./CustomButton"
+import { useRouter } from "next/navigation"
 
 const Hero = () => {
+  const router = useRouter()
   const handleScroll = () => {
-
+    router.push(`${window.location.pathname}#cars`)
   }
 
   return (

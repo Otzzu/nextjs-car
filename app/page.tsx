@@ -27,7 +27,7 @@ export default async function Home({ searchParams }: { searchParams: FilterProps
           <p>Explore the cars you might like</p>
         </div>
 
-        <div className='home__filters'>
+        <div className='home__filters' id='cars'>
           <SearchBar />
 
           <div className='home__filter-container'>
